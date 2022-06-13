@@ -1,12 +1,12 @@
-import Dashboard from './pages/dashboard';
-import NavBar from './components/NavBar';
+import React from 'react';
+
+import AppRouter from './routes';
 import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Dashboard />
+      <AppRouter />
     </div>
   );
 }

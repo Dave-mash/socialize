@@ -1,0 +1,22 @@
+.App-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header {
+    display: flex;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-btn {
+    padding: 15px;
+    width: 100px;
+    font-size: 20px;
+    border: 1px solid #1488fd;
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}

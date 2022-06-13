@@ -1,0 +1,37 @@
+.friends-container {
+    flex: 30%;
+    background-color: #FAF9F6;
+    margin-right: 10px;
+    border-radius: 10px;
+    max-height: 87vh;
+    /* position: fixed;
+    width: 20%; */
+}
+.section-title {
+    text-align: center;
+}
+.section-title h2 {
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.user-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.user-item:hover {
+    color: dodgerblue;
+}
+.user-item span {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 10px 20px 0 20px;
+}
